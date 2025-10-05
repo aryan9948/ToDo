@@ -1,0 +1,81 @@
+body{
+  background-color: aquamarine;
+}
+.todoHeading{
+  font-weight: 800;
+}
+.ContainerCenter{
+  display:flex;
+  justify-content: center;
+  background-color: brown;
+  margin-bottom:10vh;
+  width: 105vh;
+  height:10vh;
+  border:solid 3px rgb(0,0,0);
+  border-radius:10vh;
+  box-shadow:5px 5px 0.2px rgba(0,0,0,0.9);
+  transition:all ease 0.9s;
+}
+.ItemsContainer{
+  display: flex;
+  justify-content: center;
+}
+.Container{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  margin-top:3vh;
+  width: 105vh;
+  height:10vh;
+  border:solid 3px rgb(0,0,0);
+  border-radius:10vh;
+  box-shadow:5px 5px 0.2px rgba(0,0,0,0.9);
+  transition:all ease 0.9s;
+}
+#work{
+  display: flex;
+  width:40vh;
+  height: fit-content;
+  padding-top:3%;
+  font-weight: 900;
+}
+#date{
+  display: flex;
+  justify-items:start;
+  padding-top:3%;
+  font-weight: 900;
+}
+#remove,#add{
+  padding-top:1.8%;
+}
+.Container:hover{
+  background-color: rgb(115, 103, 103);
+  color:white;
+  button{
+    background-color: beige;
+    color:red;
+  }
+}
+#text{
+  margin-top:1.5vh;
+  border:solid 2px rgb(0,0,0);
+  min-height:6vh;
+  border-radius:50px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  width:100%;
+}
+#day{
+  margin-top:1.5vh;
+  border:solid 2px rgb(0,0,0);
+  min-height:6vh;
+  border-radius:50px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  width:100%;
+}
+button{
+width:20vh;
+}
